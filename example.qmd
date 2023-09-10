@@ -1,0 +1,25 @@
+---
+title: "Auto-eq Example"
+filters:
+  #- auto-eq
+  - quarto
+format: pdf
+---
+
+## Heading
+
+This filter adds formatting to heading text.
+
+We have an inline $x + y = z$ equation as well. The difference is this one has a label $x^2 +y^2 = z^2$
+
+$$
+1 + 1 = 2
+$$ {#eq-first}
+
+$$
+1 + 2 = 3
+$$
+
+$$
+3+3 \not= 5
+$$ {#eq-third}
