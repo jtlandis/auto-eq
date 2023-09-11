@@ -1,8 +1,7 @@
 ---
 title: "Auto-eq Example"
 filters:
-  #- auto-eq
-  - quarto
+  - auto-eq
 format: pdf
 ---
 
