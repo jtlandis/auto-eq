@@ -22,3 +22,9 @@ $$
 $$
 3+3 \not= 5
 $$ {#eq-third}
+
+This is latex equation
+
+\begin{equation}
+4-1 = 3
+\end{equation}
