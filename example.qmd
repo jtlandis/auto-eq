@@ -15,16 +15,26 @@ $$
 1 + 1 = 2
 $$ {#eq-first}
 
+With out this filter, the following equation would have no name. You can of course cross reference with `@eq-first` like @eq-first.
+
 $$
 1 + 2 = 3
 $$
+
+Note, this filter adds tags following the form "eq-unnamed-<unnamedCount>" starting at 0. This theoretically allows you to cross reference these equations @eq-unnamed-0, `@eq-unnamed-0`, but it isn't recommended as the indexes depend on render time. If you want to cross reference equations, you should always label them manually and descriptively.
 
 $$
 3+3 \not= 5
 $$ {#eq-third}
 
-This is latex equation
+This is latex equation, these are automatically labeled.
 
 \begin{equation}
 4-1 = 3
 \end{equation}
+
+One more qmd equation:
+
+$$
+a^2 + b^2 = c^2
+$$

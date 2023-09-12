@@ -25,7 +25,7 @@ end
 unnameCounter = 0
 -- adapting from https://github.com/quarto-dev/quarto-cli/blob/56da834f07f5fdfab1e432f11aa3be6b26f4fd2a/src/resources/filters/crossref/equations.lua
 function Para(element)
-  print(element)
+  --print(element)
   
   local inlines = element.content
   
