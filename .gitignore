@@ -2,6 +2,6 @@
 *.pdf
 *_files/
 .Rproj.user
-.Rproj
+*.Rproj
 .Rhistory
 *.out
