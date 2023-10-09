@@ -2,6 +2,10 @@
 
 Adds an arbitrary label behind any equation using `$$ $$` notation, such that each equation in the document will be numbered. This arbitrary label can theoretically be cross referenced, but it is recommended not to do this because labels are given at render time.
 
+### Target Audience 
+
+For those of use that are just a tad bit lazy and want equation numbers on a majority of our equations. Note that the default behavior is for all equations to be labeled. If you want some equations to be unlabeled, you will need to opt out with `{#no-eq}` label as shown in [example.qmd](example.qmd).
+
 ## Installing
 
 ```bash
